@@ -6,7 +6,21 @@ function App() {
           C H A N A C H A I
         </p>
         <p className="flex tracking-wide font-bold text-2xl">S A P P A S O</p>
-        <p className="flex mt-3">Senior Software Engineer</p>
+        <p className="flex mt-3 font-semibold">
+          {`<`}
+          <img
+            className="inline w-3 h-5 pt-1"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAQlBMVEVHcEzwThbwThXvThbwThfwThXwThbwThbwThXwThX5twD/5GP/98/yaBD9zjH5rAL3mwX7wxn1hgn/3FH/7pr/6HUP4I0YAAAACnRSTlMArZX/F8owVel2gu3HeQAAAuFJREFUWMPVmNl26yAMRYMBA3Yxg9v//9WbmElMNk28utbVUx+aHenoSJbzePyvwW7izBjdlBDGdL4DRDHGfL4loXtIHDsS+ZAzYR/0M47AMcRNHIznmzgf2AnhPN5MidCCg6f3JoOXHMzf92ERA+PLBbnmjDiA5wq0OSOmzCezw8F4cKICifAeaB4cTT+ZmX+s/Y3aBDolL0wvSo47iYHci8L0sixyWG0B5ikfMKwWQOLjUzU/8smQL06qjoxJ9EppzhOyB2jRWdvI/AxysS6mPCHlQKG4p7cZCtuXTozUdmyH9pxF+a9heStI8Qi85IDOnUyxr0bKE05U6Wz2QrbQelAfWNvZxDDQId3jNGt7dKSWsIKS0wDRrole/2+hEWHYK5DIQf6bVQXSVzucFuOggaGfsZ2oTTom0kmMyDHrbvyfFzYSRUJHSiChdV1Nrra0Wtn6YYDyheFISaF9jSQnktRJr6nlRmhjBSo7IolkYXKo1fy634mzbv7j3lyq0X+Wtf75UdPghJRU4YQWKBa27xsU2odZWnNH66ZJ2CZHMnvirFtech+ks3JM7FeIvTl3qAYtmXHWkuNFKkFTBbKFvjvQGYpkts2AARaV2Do34JNUJHSItO1BLFsvtrno2dqLAxNKtPXQkmw6tvUqIIjWC1uVBuyGAWKL+mmtrgorDCUbu18kjQYSciDV2rRzav8wyDavLhonZBsFyeaJw6JIIyATh58170c5WlpMCHWOGl117ef764jvsjLdfaOkoThYm8e84idbAqp/385xI+0tDiCZcAWKk6M2J0FOrO6K42WSoLqfDPTl6jKhYeLqPtapdXVpW3AiP73/3W1olV87R9d8vDD7a6Hpoyx6dSKjtCuNZ61O5YPiMXzgnc0frFa759vmwj3otHUDP439ICF4vBLAQyxAcPmaeZpVvCmki3RVoV/+IEXYVN3vnIr33vkJY2JCCFGEJsHYpz/U/H38A/wGVtMS8SSnAAAAAElFTkSuQmCC"
+          />
+          {`>\`\${"`}
+          <span className="px-2">Senior Software Engineer</span>
+          {`"}\`</`}
+          <img
+            className="inline w-3 h-5 pt-1"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAQlBMVEVHcEzwThbwThXvThbwThfwThXwThbwThbwThXwThX5twD/5GP/98/yaBD9zjH5rAL3mwX7wxn1hgn/3FH/7pr/6HUP4I0YAAAACnRSTlMArZX/F8owVel2gu3HeQAAAuFJREFUWMPVmNl26yAMRYMBA3Yxg9v//9WbmElMNk28utbVUx+aHenoSJbzePyvwW7izBjdlBDGdL4DRDHGfL4loXtIHDsS+ZAzYR/0M47AMcRNHIznmzgf2AnhPN5MidCCg6f3JoOXHMzf92ERA+PLBbnmjDiA5wq0OSOmzCezw8F4cKICifAeaB4cTT+ZmX+s/Y3aBDolL0wvSo47iYHci8L0sixyWG0B5ikfMKwWQOLjUzU/8smQL06qjoxJ9EppzhOyB2jRWdvI/AxysS6mPCHlQKG4p7cZCtuXTozUdmyH9pxF+a9heStI8Qi85IDOnUyxr0bKE05U6Wz2QrbQelAfWNvZxDDQId3jNGt7dKSWsIKS0wDRrole/2+hEWHYK5DIQf6bVQXSVzucFuOggaGfsZ2oTTom0kmMyDHrbvyfFzYSRUJHSiChdV1Nrra0Wtn6YYDyheFISaF9jSQnktRJr6nlRmhjBSo7IolkYXKo1fy634mzbv7j3lyq0X+Wtf75UdPghJRU4YQWKBa27xsU2odZWnNH66ZJ2CZHMnvirFtech+ks3JM7FeIvTl3qAYtmXHWkuNFKkFTBbKFvjvQGYpkts2AARaV2Do34JNUJHSItO1BLFsvtrno2dqLAxNKtPXQkmw6tvUqIIjWC1uVBuyGAWKL+mmtrgorDCUbu18kjQYSciDV2rRzav8wyDavLhonZBsFyeaJw6JIIyATh58170c5WlpMCHWOGl117ef764jvsjLdfaOkoThYm8e84idbAqp/385xI+0tDiCZcAWKk6M2J0FOrO6K42WSoLqfDPTl6jKhYeLqPtapdXVpW3AiP73/3W1olV87R9d8vDD7a6Hpoyx6dSKjtCuNZ61O5YPiMXzgnc0frFa759vmwj3otHUDP439ICF4vBLAQyxAcPmaeZpVvCmki3RVoV/+IEXYVN3vnIr33vkJY2JCCFGEJsHYpz/U/H38A/wGVtMS8SSnAAAAAElFTkSuQmCC"
+          />
+          {`>`}
+        </p>
       </div>
       <div className="grid grid-cols-3 border-t-2 border-blue-200 mt-5">
         <div className="col pt-5 pr-5 gap-10">
