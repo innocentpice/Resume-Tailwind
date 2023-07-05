@@ -11,7 +11,7 @@ function App() {
       <div className="grid grid-cols-3 border-t-2 border-blue-200 mt-5">
         <div className="col pt-5 pr-5 gap-10">
           <div className="flex flex-col gap-5">
-            <h1 className="flex font-semibold underline underline-offset-4">
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
               DETAILS
             </h1>
             <div className="flex flex-col">
@@ -30,7 +30,7 @@ function App() {
               <h2 className="flex font-medium text-sm">NATIONALITY</h2>
               <p className="flex text-sm">Thai</p>
             </div>
-            <h1 className="flex font-semibold underline underline-offset-4">
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
               PROGRAMING SKILLS
             </h1>
             <div className="flex flex-row justify-between">
@@ -53,7 +53,7 @@ function App() {
               <p className="flex text-xs">PHP</p>
               <p className="flex text-xs">Expert</p>
             </div>
-            <h1 className="flex font-semibold underline underline-offset-4">
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
               LIBRARY & FRAMWORK SKILLS
             </h1>
             <div className="flex flex-row justify-between">
@@ -88,7 +88,22 @@ function App() {
               <p className="flex text-xs">Symfony</p>
               <p className="flex text-xs">Experienced</p>
             </div>
-            <h1 className="flex font-semibold underline underline-offset-4">
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
+              Database SKILLS
+            </h1>
+            <div className="flex flex-row justify-between">
+              <p className="flex text-xs">MongoAtlas</p>
+              <p className="flex text-xs">Experienced</p>
+            </div>
+            <div className="flex flex-row justify-between">
+              <p className="flex text-xs">PostgresQL</p>
+              <p className="flex text-xs">Experienced</p>
+            </div>
+            <div className="flex flex-row justify-between">
+              <p className="flex text-xs">MySQL</p>
+              <p className="flex text-xs">Experienced</p>
+            </div>
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
               CLOUD SERVICE SKILLS
             </h1>
             <div className="flex flex-row justify-between">
@@ -99,11 +114,19 @@ function App() {
               <p className="flex text-xs">GOOGLE CLOUD</p>
               <p className="flex text-xs">Experienced</p>
             </div>
-            <h1 className="flex font-semibold underline underline-offset-4">
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
               Principles & Patterns
             </h1>
             <div className="flex flex-row justify-between">
               <p className="flex text-xs">Domain Driven Design</p>
+              <p className="flex text-xs">Experienced</p>
+            </div>
+            <div className="flex flex-row justify-between">
+              <p className="flex text-xs">Microservice</p>
+              <p className="flex text-xs">Experienced</p>
+            </div>
+            <div className="flex flex-row justify-between">
+              <p className="flex text-xs">Micro Frontend</p>
               <p className="flex text-xs">Experienced</p>
             </div>
           </div>
@@ -150,6 +173,15 @@ function App() {
                     <ul className="pl-6">
                       <li>
                         - Stack: PIMCORE , NodeJS(Express) , NextJS(React) with
+                        AWS
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Ekyc Platform
+                    <ul className="pl-6">
+                      <li>
+                        - Stack: Appman, Node.js (Express), NextJS(React) with
                         AWS
                       </li>
                     </ul>
