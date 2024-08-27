@@ -1,164 +1,103 @@
 function App() {
   return (
     <div className="container mx-auto mt-5 antialiased leading-relaxed">
-      <div className="flex flex-col">
-        <p className="flex tracking-wide font-bold text-2xl">
-          C H A N A C H A I
-        </p>
-        <p className="flex tracking-wide font-bold text-2xl">S A P P A S O</p>
-        <p className="flex mt-3 font-semibold">
-          {`<`}
-          <img
-            className="inline w-3 h-5 pt-1"
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAQlBMVEVHcEzwThbwThXvThbwThfwThXwThbwThbwThXwThX5twD/5GP/98/yaBD9zjH5rAL3mwX7wxn1hgn/3FH/7pr/6HUP4I0YAAAACnRSTlMArZX/F8owVel2gu3HeQAAAuFJREFUWMPVmNl26yAMRYMBA3Yxg9v//9WbmElMNk28utbVUx+aHenoSJbzePyvwW7izBjdlBDGdL4DRDHGfL4loXtIHDsS+ZAzYR/0M47AMcRNHIznmzgf2AnhPN5MidCCg6f3JoOXHMzf92ERA+PLBbnmjDiA5wq0OSOmzCezw8F4cKICifAeaB4cTT+ZmX+s/Y3aBDolL0wvSo47iYHci8L0sixyWG0B5ikfMKwWQOLjUzU/8smQL06qjoxJ9EppzhOyB2jRWdvI/AxysS6mPCHlQKG4p7cZCtuXTozUdmyH9pxF+a9heStI8Qi85IDOnUyxr0bKE05U6Wz2QrbQelAfWNvZxDDQId3jNGt7dKSWsIKS0wDRrole/2+hEWHYK5DIQf6bVQXSVzucFuOggaGfsZ2oTTom0kmMyDHrbvyfFzYSRUJHSiChdV1Nrra0Wtn6YYDyheFISaF9jSQnktRJr6nlRmhjBSo7IolkYXKo1fy634mzbv7j3lyq0X+Wtf75UdPghJRU4YQWKBa27xsU2odZWnNH66ZJ2CZHMnvirFtech+ks3JM7FeIvTl3qAYtmXHWkuNFKkFTBbKFvjvQGYpkts2AARaV2Do34JNUJHSItO1BLFsvtrno2dqLAxNKtPXQkmw6tvUqIIjWC1uVBuyGAWKL+mmtrgorDCUbu18kjQYSciDV2rRzav8wyDavLhonZBsFyeaJw6JIIyATh58170c5WlpMCHWOGl117ef764jvsjLdfaOkoThYm8e84idbAqp/385xI+0tDiCZcAWKk6M2J0FOrO6K42WSoLqfDPTl6jKhYeLqPtapdXVpW3AiP73/3W1olV87R9d8vDD7a6Hpoyx6dSKjtCuNZ61O5YPiMXzgnc0frFa759vmwj3otHUDP439ICF4vBLAQyxAcPmaeZpVvCmki3RVoV/+IEXYVN3vnIr33vkJY2JCCFGEJsHYpz/U/H38A/wGVtMS8SSnAAAAAElFTkSuQmCC"
-          />
-          {`>\`\${"`}
-          <span className="px-2">Senior Software Engineer</span>
-          {`"}\`</`}
-          <img
-            className="inline w-3 h-5 pt-1"
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAQlBMVEVHcEzwThbwThXvThbwThfwThXwThbwThbwThXwThX5twD/5GP/98/yaBD9zjH5rAL3mwX7wxn1hgn/3FH/7pr/6HUP4I0YAAAACnRSTlMArZX/F8owVel2gu3HeQAAAuFJREFUWMPVmNl26yAMRYMBA3Yxg9v//9WbmElMNk28utbVUx+aHenoSJbzePyvwW7izBjdlBDGdL4DRDHGfL4loXtIHDsS+ZAzYR/0M47AMcRNHIznmzgf2AnhPN5MidCCg6f3JoOXHMzf92ERA+PLBbnmjDiA5wq0OSOmzCezw8F4cKICifAeaB4cTT+ZmX+s/Y3aBDolL0wvSo47iYHci8L0sixyWG0B5ikfMKwWQOLjUzU/8smQL06qjoxJ9EppzhOyB2jRWdvI/AxysS6mPCHlQKG4p7cZCtuXTozUdmyH9pxF+a9heStI8Qi85IDOnUyxr0bKE05U6Wz2QrbQelAfWNvZxDDQId3jNGt7dKSWsIKS0wDRrole/2+hEWHYK5DIQf6bVQXSVzucFuOggaGfsZ2oTTom0kmMyDHrbvyfFzYSRUJHSiChdV1Nrra0Wtn6YYDyheFISaF9jSQnktRJr6nlRmhjBSo7IolkYXKo1fy634mzbv7j3lyq0X+Wtf75UdPghJRU4YQWKBa27xsU2odZWnNH66ZJ2CZHMnvirFtech+ks3JM7FeIvTl3qAYtmXHWkuNFKkFTBbKFvjvQGYpkts2AARaV2Do34JNUJHSItO1BLFsvtrno2dqLAxNKtPXQkmw6tvUqIIjWC1uVBuyGAWKL+mmtrgorDCUbu18kjQYSciDV2rRzav8wyDavLhonZBsFyeaJw6JIIyATh58170c5WlpMCHWOGl117ef764jvsjLdfaOkoThYm8e84idbAqp/385xI+0tDiCZcAWKk6M2J0FOrO6K42WSoLqfDPTl6jKhYeLqPtapdXVpW3AiP73/3W1olV87R9d8vDD7a6Hpoyx6dSKjtCuNZ61O5YPiMXzgnc0frFa759vmwj3otHUDP439ICF4vBLAQyxAcPmaeZpVvCmki3RVoV/+IEXYVN3vnIr33vkJY2JCCFGEJsHYpz/U/H38A/wGVtMS8SSnAAAAAElFTkSuQmCC"
-          />
-          {`>`}
-        </p>
-      </div>
-      <div className="grid grid-cols-3 border-t-2 border-blue-200 mt-5">
-        <div className="col pt-5 pr-5 gap-10">
-          <div className="flex flex-col gap-5">
-            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
-              DETAILS
-            </h1>
-            <div className="flex flex-col">
-              <h2 className="flex font-medium text-sm">ADDRESS</h2>
-              <p className="flex text-sm">Chonburi Thailand</p>
-            </div>
-            <div className="flex flex-col">
-              <h2 className="flex font-medium text-sm">PHONE</h2>
-              <p className="flex text-sm">089-245-6916</p>
-            </div>
-            <div className="flex flex-col">
-              <h2 className="flex font-medium text-sm">EMAIL</h2>
-              <p className="flex text-sm">chanachai.devper@gmail.com</p>
-            </div>
-            <div className="flex flex-col">
-              <h2 className="flex font-medium text-sm">NATIONALITY</h2>
-              <p className="flex text-sm">Thai</p>
-            </div>
-            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
-              PROGRAMING SKILLS
-            </h1>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Typescript</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">LUA</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">GOLANG</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">JAVA</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">PHP</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
-              LIBRARY & FRAMWORK SKILLS
-            </h1>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">React.js</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Jest</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Node.js</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Spring Boost</p>
-              <p className="flex text-xs">Expert</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">GraphQL</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Terraform</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Laravel</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Symfony</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
-              Database SKILLS
-            </h1>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">MongoAtlas</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">PostgresQL</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">MySQL</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
-              CLOUD SERVICE SKILLS
-            </h1>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">AWS</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">GOOGLE CLOUD</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
-              Principles & Patterns
-            </h1>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Domain Driven Design</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Microservice</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-            <div className="flex flex-row justify-between">
-              <p className="flex text-xs">Micro Frontend</p>
-              <p className="flex text-xs">Experienced</p>
-            </div>
-          </div>
+      <div className="flex flex-row">
+        <div className="flex flex-col w-full">
+          <p className="flex tracking-wide font-bold text-2xl">
+            C H A N A C H A I
+          </p>
+          <p className="flex tracking-wide font-bold text-2xl">S A P P A S O</p>
+          <p className="flex mt-3 font-semibold">
+            <span className="mr-2">Senior Software Engineer</span>
+            <img
+              className="inline w-3 h-5 pt-1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAQlBMVEVHcEzwThbwThXvThbwThfwThXwThbwThbwThXwThX5twD/5GP/98/yaBD9zjH5rAL3mwX7wxn1hgn/3FH/7pr/6HUP4I0YAAAACnRSTlMArZX/F8owVel2gu3HeQAAAuFJREFUWMPVmNl26yAMRYMBA3Yxg9v//9WbmElMNk28utbVUx+aHenoSJbzePyvwW7izBjdlBDGdL4DRDHGfL4loXtIHDsS+ZAzYR/0M47AMcRNHIznmzgf2AnhPN5MidCCg6f3JoOXHMzf92ERA+PLBbnmjDiA5wq0OSOmzCezw8F4cKICifAeaB4cTT+ZmX+s/Y3aBDolL0wvSo47iYHci8L0sixyWG0B5ikfMKwWQOLjUzU/8smQL06qjoxJ9EppzhOyB2jRWdvI/AxysS6mPCHlQKG4p7cZCtuXTozUdmyH9pxF+a9heStI8Qi85IDOnUyxr0bKE05U6Wz2QrbQelAfWNvZxDDQId3jNGt7dKSWsIKS0wDRrole/2+hEWHYK5DIQf6bVQXSVzucFuOggaGfsZ2oTTom0kmMyDHrbvyfFzYSRUJHSiChdV1Nrra0Wtn6YYDyheFISaF9jSQnktRJr6nlRmhjBSo7IolkYXKo1fy634mzbv7j3lyq0X+Wtf75UdPghJRU4YQWKBa27xsU2odZWnNH66ZJ2CZHMnvirFtech+ks3JM7FeIvTl3qAYtmXHWkuNFKkFTBbKFvjvQGYpkts2AARaV2Do34JNUJHSItO1BLFsvtrno2dqLAxNKtPXQkmw6tvUqIIjWC1uVBuyGAWKL+mmtrgorDCUbu18kjQYSciDV2rRzav8wyDavLhonZBsFyeaJw6JIIyATh58170c5WlpMCHWOGl117ef764jvsjLdfaOkoThYm8e84idbAqp/385xI+0tDiCZcAWKk6M2J0FOrO6K42WSoLqfDPTl6jKhYeLqPtapdXVpW3AiP73/3W1olV87R9d8vDD7a6Hpoyx6dSKjtCuNZ61O5YPiMXzgnc0frFa759vmwj3otHUDP439ICF4vBLAQyxAcPmaeZpVvCmki3RVoV/+IEXYVN3vnIr33vkJY2JCCFGEJsHYpz/U/H38A/wGVtMS8SSnAAAAAElFTkSuQmCC"
+            />
+          </p>
         </div>
-        <div className="col-span-2 pl-5 border-l-2 border-blue-200">
+        <div className="flex flex-col">
+          <img
+            className="flex aspect-square h-24 m-auto mr-10 rounded"
+            src="src/assets/linken_profile_pic.jpeg"
+          />
+        </div>
+      </div>
+      <div className="grid grid-cols-4 border-t-2 border-blue-200 mt-5">
+        <div className="col-span-2 pt-5 pr-5 gap-10">
           <div className="min-h-[5rem] border-b-2 border-blue-200 py-5">
             <h1 className="text-lg underline underline-offset-4 font-bold pb-4">
               About me
             </h1>
             <span className="leading-loose">
-              Experienced Full Stack Developer, Developed and presented findings
-              and solutions to audiences including senior executives and
-              stakeholders, Skilled in Golang , PHP, Java, J2EE, Spring
-              Framework , Javascript, Node.JS, ReactJS, K8s, Gitlab CI, AWS
-              Platform, Google Cloud Platform and Firebase API.
+              Experienced Full Stack Developer with a strong background in
+              developing and presenting technical solutions to senior executives
+              and key stakeholders. Proficient in TypeScript, React.js, Java,
+              and Golang, with additional expertise in J2EE, Spring Framework,
+              JavaScript, and Node.js. Adept at applying Domain-Driven Design
+              (DDD) principles to create scalable, maintainable software
+              architectures. Skilled in DevOps practices using Kubernetes,
+              Jenkins, and GitLab CI, with extensive experience in deploying
+              applications on AWS, Google Cloud Platform, and Firebase.
             </span>
           </div>
-          <div className="flex flex-col min-h-[5rem] border-b-2 border-blue-200 py-5 gap-5">
+          <div className="min-h-[5rem] border-b-2 border-blue-200 py-5">
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
+              PERSONAL INFORMATION
+            </h1>
+            <div className="flex flex-col gap-3 pt-5">
+              <div className="flex flex-row">
+                <div className="flex flex-col w-full">
+                  <h2 className="flex font-medium text-sm">BIRTH DATE</h2>
+                  <p className="flex text-sm mt-1">19 September 1995</p>
+                </div>
+                <div className="flex flex-col w-full">
+                  <h2 className="flex font-medium text-sm">ADDRESS</h2>
+                  <p className="flex text-sm mt-1">Chonburi Thailand</p>
+                </div>
+              </div>
+              <div className="flex flex-row">
+                <div className="flex flex-col w-full">
+                  <h2 className="flex font-medium text-sm">EMAIL</h2>
+                  <p className="flex text-sm mt-1">
+                    chanachai.devper@gmail.com
+                  </p>
+                </div>
+                <div className="flex flex-col w-full">
+                  <h2 className="flex font-medium text-sm">PHONE</h2>
+                  <p className="flex text-sm mt-1">089-245-6916</p>
+                </div>
+              </div>
+              <div className="flex flex-row">
+                <div className="flex flex-col">
+                  <h2 className="flex font-medium text-sm">NATIONALITY</h2>
+                  <p className="flex text-sm mt-1">Thai</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="min-h-[5rem] border-b-2 border-blue-200 py-5">
+            <h1 className="text-lg underline underline-offset-4 font-bold pb-4">
+              EDUCATION
+            </h1>
+            <div className="flex flex-col">
+              <div className="flex flex-row">
+                <div className="flex pt-1 pr-2">
+                  <img
+                    className="inline w-8 h-8"
+                    src="https://www.kmutnb.ac.th/KMUTNB/media/kmutnb/images/kmutnb_index_Logo.png"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-md font-medium">
+                    King Mongkut's University of Technology North Bangkok
+                  </p>
+                  <sub className="font-semibold">2014 - 2017</sub>
+                  <p className="mt-4">Bachelor's degree Business/Commerce</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col min-h-[5rem] py-5 gap-5">
             <h1 className="text-lg underline underline-offset-4 font-bold">
               EMPLOYMENT HISTORY
             </h1>
@@ -336,29 +275,111 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="min-h-[5rem] border-b-2 border-blue-200 py-5">
-            <h1 className="text-lg underline underline-offset-4 font-bold pb-4">
-              EDUCATION
+        </div>
+        <div className="col-span-2 pl-5 border-l-2 border-blue-200 mt-5">
+          <div className="min-h-[5rem] border-b-2 border-blue-200 p-5 flex flex-col gap-5">
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
+              Languages & Expertise
             </h1>
-            <div className="flex flex-col">
-              <div className="flex flex-row">
-                <div className="flex pt-1 pr-2">
-                  <img
-                    className="inline w-8 h-8"
-                    src="https://www.kmutnb.ac.th/KMUTNB/media/kmutnb/images/kmutnb_index_Logo.png"
-                  />
-                </div>
-                <div className="flex flex-col">
-                  <p className="text-md font-medium">
-                    King Mongkut's University of Technology North Bangkok
-                  </p>
-                  <sub className="font-semibold">2014 - 2017</sub>
-                  <p className="mt-4">Bachelor's degree Business/Commerce</p>
-                </div>
-              </div>
-            </div>
+            <ul className="list-disc list-inside flex flex-col gap-3.5">
+              <li>
+                <span className="text-md font-medium mr-2">TypeScript :</span>
+                Advanced in building scalable front-end applications with
+                Next.js and React.js. Expertise in type-safe code, enhanced by
+                Tailwind CSS for design, Figma for layouts, and Nx for micro
+                frontend architecture.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">Lua :</span>
+                Experience in scripting for online game tools, focusing on
+                performance and efficiency to enhance player interactions.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">Golang :</span>
+                Strong background in developing high-performance microservices,
+                including a web crawler microservice using RabbitMQ and MongoDB,
+                managing over 1 million messages per minute.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">Java :</span>
+                Proficient in creating BPM (Business Process Management) systems
+                integrating with SAP S/4HANA, managing DB2 databases, and
+                writing ABAP code for report generation. Experienced with Spring
+                Framework for robust enterprise applications.
+              </li>
+            </ul>
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
+              DevOps Skills:
+            </h1>
+            <ul className="list-disc list-inside flex flex-col gap-3.5">
+              <li>
+                <span className="text-md font-medium mr-2">CI/CD :</span>
+                Skilled in setting up and managing CI/CD pipelines with Jenkins
+                and GitLab CI. Proficient in Docker and Kubernetes (K8s) for
+                containerization and orchestration.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">
+                  Deployment Strategies :
+                </span>
+                Skilled in implementing various deployment strategies including
+                canary deployments, blue-green deployments, and rolling updates
+                to ensure smooth and reliable application releases.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">
+                  Cloud Platforms :
+                </span>
+                Experienced with AWS and Google Cloud, focusing on scalable,
+                high-performance cloud infrastructure.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">Service Mesh :</span>
+                Utilized Envoy for service mesh to enhance observability,
+                security, and traffic management in microservices.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">
+                  Scalability and Performance :
+                </span>
+                Expert in designing scalable systems and optimizing performance
+                across cloud environments and containerized applications.
+              </li>
+            </ul>
+            <h1 className="flex font-semibold underline underline-offset-4 uppercase">
+              Specializations:
+            </h1>
+            <ul className="list-disc list-inside flex flex-col gap-3.5">
+              <li>
+                <span className="text-md font-medium mr-2">
+                  System Optimization :
+                </span>
+                Expertise in performance tuning and optimization across multiple
+                languages and platforms.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">
+                  Best Practices :
+                </span>
+                Deep knowledge of design patterns, clean code principles,
+                test-driven development (TDD), and Domain Driving Design (DDD).
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">
+                  Micro Frontends :
+                </span>
+                Experience with Nx for implementing modular, scalable micro
+                frontend architectures with Island Architecture Principles.
+              </li>
+              <li>
+                <span className="text-md font-medium mr-2">DevOps :</span>
+                Proficient in CI/CD (Jenkins, GitLab CI), containerization
+                (Docker), orchestration (Kubernetes), cloud infrastructure (AWS,
+                Google Cloud), and service mesh (Envoy).
+              </li>
+            </ul>
           </div>
-          <div className="min-h-[5rem] border-b-2 border-blue-200 py-5">
+          <div className="min-h-[5rem] border-b-2 border-blue-200 p-5">
             <h1 className="text-lg underline underline-offset-4 font-bold pb-4">
               HOBBIES
             </h1>
@@ -369,7 +390,7 @@ function App() {
               </ul>
             </div>
           </div>
-          <div className="min-h-[5rem] py-5">
+          <div className="min-h-[5rem] p-5">
             <h1 className="text-lg underline underline-offset-4 font-bold pb-4">
               LANGUAGES
             </h1>
