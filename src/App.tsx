@@ -92,7 +92,9 @@ function App() {
                     King Mongkut's University of Technology North Bangkok
                   </p>
                   <sub className="font-semibold">2014 - 2017</sub>
-                  <p className="mt-4">Bachelor's degree Business/Commerce</p>
+                  <p className="mt-4">
+                    Bachelor's degree Business/Commerce ( GPA 3.28 )
+                  </p>
                 </div>
               </div>
             </div>
