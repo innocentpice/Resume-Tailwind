@@ -1,16 +1,33 @@
-# Vite + React
+# Chanachai Sappaso - Resume
 
-This is a [Vite](https://vitejs.dev) project together with React.
+A React, TypeScript, Vite and Tailwind resume, preserving the original two-column layout and full content on one A4 page.
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-vite-react/main)
+## Run
 
-[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) has been added to optimize it for [CodeSandbox](https://codesandbox.io/dashboard).
+```sh
+yarn install
+yarn dev
+```
 
-## Resources
+## Build
 
-- [CodeSandbox — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
-- [Vite — GitHub](https://github.com/vitejs/vite)
-- [Vite — Docs](https://vitejs.dev/guide/)
+```sh
+yarn build
+yarn preview
+```
 
-# Resume
+## Save a PDF
+
+Click **Save as PDF**, choose **Save as PDF** in the browser print dialog, and use:
+
+- Paper: A4
+- Scale: 100%
+- Margins: None
+- Headers and footers: Off
+- Background graphics: On
+
+The verified sample is `output/pdf/Chanachai-Sappaso-Resume.pdf`. Regenerate it after changing the resume.
+
+## Content
+
+Edit `src/App.tsx` for resume content and `src/index.css` for compact A4 spacing. Employment titles and dates were updated from the owner's LinkedIn profile; banking projects and AI harness experience were provided by the owner. The original projects, expertise, personal details, education, languages and hobbies are retained. Logos use the original image sources; the portrait is bundled locally.
