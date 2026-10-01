@@ -31,3 +31,11 @@ The verified sample is `output/pdf/Chanachai-Sappaso-Resume.pdf`. Regenerate it 
 ## Content
 
 Edit `src/App.tsx` for resume content and `src/index.css` for compact A4 spacing. Employment titles and dates were updated from the owner's LinkedIn profile; banking projects and AI harness experience were provided by the owner. The original projects, expertise, personal details, education, languages and hobbies are retained. Logos use the original image sources; the portrait is bundled locally.
+
+## GitHub Pages
+
+The GitHub Actions workflow in `.github/workflows/pages.yml` builds and deploys changes pushed to `main`. In the repository's **Settings > Pages**, select **GitHub Actions** as the build source.
+
+Website: https://innocentpice.github.io/Resume-Tailwind/
+
+Vite's base path is `/Resume-Tailwind/` so bundled images, scripts and styles resolve correctly on the project website.
